@@ -1,27 +1,28 @@
 {
-{
-  "description": "Rules based on Microsoft Endpoints at https://endpoints.office.com/endpoints/worldwide?clientrequestid=b794baa0-662f-4592-b4f0-46ab3284b612&ServiceAreas=Skype",
-  "name": "Microsoft Teams",
-  "rules": [
-    {
-      "action": "allow",
-      "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
-      "remote-addresses": "52.112.0.0/14,52.122.0.0-52.123.255.255,2603:1063::-2603:1063:3ff:ffff:ffff:ffff:ffff:ffff",
-      "ports": "3478-3481",
-      "protocol": "udp"
-    },
-    {
-      "action": "allow",
-      "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
-      "remote-addresses": "52.112.0.0-52.115.255.255,52.122.0.0-52.123.255.255,52.238.119.141,52.244.160.207,2603:1027::-2603:1027:0:ffff:ffff:ffff:ffff:ffff,2603:1037::-2603:1037:0:ffff:ffff:ffff:ffff:ffff,2603:1047::-2603:1047:0:ffff:ffff:ffff:ffff:ffff,2603:1057::-2603:1057:0:ffff:ffff:ffff:ffff:ffff,2603:1063::-2603:1063:3ff:ffff:ffff:ffff:ffff:ffff,2620:1ec:6::-2620:1ec:6:ffff:ffff:ffff:ffff:ffff,2620:1ec:40::-2620:1ec:7f:ffff:ffff:ffff:ffff:ffff",
-      "ports": "80,443",
-      "protocol": "tcp"
-    }
-  ]
-},
-  "description": "Rules based on Microsoft Endpoints at https://endpoints.office.com/endpoints/worldwide?clientrequestid=b794baa0-662f-4592-b4f0-46ab3284b612&ServiceAreas=Skype",
-  "name": "Microsoft Teams 2",
-  "rules": [
+  {
+    "description": "Rules based on Microsoft Endpoints at https://endpoints.office.com/endpoints/worldwide?clientrequestid=b794baa0-662f-4592-b4f0-46ab3284b612&ServiceAreas=Skype",
+    "name": "Microsoft Teams",
+    "rules": [
+      {
+        "action": "allow",
+        "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+        "remote-addresses": "52.112.0.0/14,52.122.0.0-52.123.255.255,2603:1063::-2603:1063:3ff:ffff:ffff:ffff:ffff:ffff",
+        "ports": "3478-3481",
+        "protocol": "udp"
+      },
+      {
+        "action": "allow",
+        "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+        "remote-addresses": "52.112.0.0-52.115.255.255,52.122.0.0-52.123.255.255,52.238.119.141,52.244.160.207,2603:1027::-2603:1027:0:ffff:ffff:ffff:ffff:ffff,2603:1037::-2603:1037:0:ffff:ffff:ffff:ffff:ffff,2603:1047::-2603:1047:0:ffff:ffff:ffff:ffff:ffff,2603:1057::-2603:1057:0:ffff:ffff:ffff:ffff:ffff,2603:1063::-2603:1063:3ff:ffff:ffff:ffff:ffff:ffff,2620:1ec:6::-2620:1ec:6:ffff:ffff:ffff:ffff:ffff,2620:1ec:40::-2620:1ec:7f:ffff:ffff:ffff:ffff:ffff",
+        "ports": "80,443",
+        "protocol": "tcp"
+      }
+    ]
+  },
+  {
+    "description": "Rules based on Microsoft Endpoints at https://endpoints.office.com/endpoints/worldwide?clientrequestid=b794baa0-662f-4592-b4f0-46ab3284b612&ServiceAreas=Skype",
+    "name": "Microsoft Teams 2",
+    "rules": [
     {
       "action": "allow",
       "process": "/Applications/Microsoft Teams.app/Contents/MacOS/OldTeams",
