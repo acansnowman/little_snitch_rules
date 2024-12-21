@@ -1,4 +1,5 @@
 {
+{
   "description": "Rules based on Microsoft Endpoints at https://endpoints.office.com/endpoints/worldwide?clientrequestid=b794baa0-662f-4592-b4f0-46ab3284b612&ServiceAreas=Skype",
   "name": "Microsoft Teams",
   "rules": [
@@ -16,7 +17,8 @@
       "ports": "80,443",
       "protocol": "tcp"
     }
-  ],
+  ]
+},
   "description": "Rules based on Microsoft Endpoints at https://endpoints.office.com/endpoints/worldwide?clientrequestid=b794baa0-662f-4592-b4f0-46ab3284b612&ServiceAreas=Skype",
   "name": "Microsoft Teams 2",
   "rules": [
@@ -35,4 +37,5 @@
       "protocol": "tcp"
     }
   ]
+}
 }
