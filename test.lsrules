@@ -636,9 +636,14 @@
       "action": "allow",
       "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
       "remote-domains": [
-            "*.msedge.net",
-            "*.azure.net",
-            "dscd.akamai.net"
+            "msedge.net",
+            "s-msedge.net",
+            "azure.net",
+            "dscd.akamai.net",
+            "live.com",
+            "office.net",
+            "microsoft.com",
+            "skype.com"
       ],
       "ports": "80,443",
       "protocol": "tcp"
