@@ -640,7 +640,7 @@
             "*.azure.net",
             "dscd.akamai.net"
       ],
-      "ports": "90,443",
+      "ports": "80,443",
       "protocol": "tcp"
     },
     {
