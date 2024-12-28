@@ -639,13 +639,15 @@
             "msedge.net",
             "s-msedge.net",
             "azure.net",
+            "azure.com",
             "dscd.akamai.net",
             "live.com",
             "office.net",
+            "office.com",
             "microsoft.com",
             "skype.com"
       ],
-      "ports": "80,443",
+      "ports": "443",
       "protocol": "tcp"
     },
     {
@@ -656,7 +658,7 @@
             "cloudflare-dns.com"
       ],
       "ports": "53",
-      "protocol": "tcp"
+      "protocol": "tcp, 443"
     },
     {
       "action": "allow",
@@ -665,7 +667,7 @@
             "one.one",
             "cloudflare-dns.com"
       ],
-      "ports": "53",
+      "ports": "53, 443",
       "protocol": "udp"
     },
     {
