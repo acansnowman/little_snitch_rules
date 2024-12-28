@@ -647,8 +647,8 @@
       "action": "allow",
       "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
       "remote-domains": [
-            "*.one.one",
-            "*.cloudflare-dns.com"
+            "one.one",
+            "cloudflare-dns.com"
       ],
       "ports": "53",
       "protocol": "tcp"
@@ -657,8 +657,8 @@
       "action": "allow",
       "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
       "remote-domains": [
-            "*.one.one",
-            "*.cloudflare-dns.com"
+            "one.one",
+            "cloudflare-dns.com"
       ],
       "ports": "53",
       "protocol": "udp"
