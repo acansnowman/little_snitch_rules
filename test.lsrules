@@ -631,6 +631,47 @@
       ],
       "ports": "443",
       "protocol": "udp"
-    }
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+      "remote-domains": [
+            "*.msedge.net",
+            "*.azure.net",
+            "dscd.akamai.net"
+      ],
+      "ports": "90,443",
+      "protocol": "tcp"
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+      "remote-domains": [
+            "*.one.one",
+            "*.cloudflare-dns.com"
+      ],
+      "ports": "53",
+      "protocol": "tcp"
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+      "remote-domains": [
+            "*.one.one",
+            "*.cloudflare-dns.com"
+      ],
+      "ports": "53",
+      "protocol": "udp"
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+      "remote-addresses": [
+            "52.113.194.132",
+            "52.123.128.14"
+      ],
+      "ports": "80,443",
+      "protocol": "tcp"
+    },
   ]
 }
