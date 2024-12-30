@@ -1,0 +1,44 @@
+{
+  "name": "Microsoft Teams",
+  "description": "https://endpoints.office.com/endpoints/worldwide?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7",
+  "rules": [
+    {
+      "action": "allow",
+      "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+      "remote-domains": [
+        "one.one",
+        "cloudflare-dns.com"
+      ],
+      "ports": "53, 443",
+      "protocol": "tcp"
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+      "remote-domains": [
+        "one.one",
+        "cloudflare-dns.com"
+      ],
+      "ports": "53",
+      "protocol": "udp"
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+      "remote-domains": [
+        "*"
+      ],
+      "ports": "443",
+      "protocol": "tcp"
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+      "remote-addresses": [
+        "0.0.0.0/0"
+      ],
+      "ports": "443",
+      "protocol": "tcp"
+    }
+  ]
+}
