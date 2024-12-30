@@ -9,7 +9,7 @@
         "one.one",
         "cloudflare-dns.com"
       ],
-      "ports": "53, 443",
+      "ports": "53",
       "protocol": "tcp"
     },
     {
@@ -106,7 +106,9 @@
         "static.microsoft",
         "usercontent.microsoft",
         "skype.com",
-        "akamai.net"
+        "akamai.net",
+        "one.one",
+        "cloudflare-dns.com"
       ],
       "ports": "443",
       "protocol": "tcp"
