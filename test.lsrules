@@ -678,10 +678,24 @@
             "20.189.173.0/27",
             "52.157.0.0/18",
             "13.107.3.128",
+            "13.89.179.0/29",
+            "13.89.179.8/29",
+            "52.112.84.0/23",
+            "52.112.127.0/24",
             "52.123.128.14"
       ],
       "ports": "443",
       "protocol": "tcp"
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
+      "remote-addresses": [
+            "23.43.242.0/24"
+      ],
+      "ports": "443",
+      "protocol": "tcp",
+      "notes": "Appears to be Akamai edge caching"
     },
   ]
 }
