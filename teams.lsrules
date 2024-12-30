@@ -26,7 +26,7 @@
       "action": "allow",
       "process": "/Applications/Microsoft Teams.app/Contents/MacOS/Teams",
       "remote-domains": [
-        "*"
+        "any"
       ],
       "ports": "443",
       "protocol": "tcp"
