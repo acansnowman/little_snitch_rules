@@ -1,0 +1,32 @@
+{
+  "name": "Signal Chat App",
+  "description": "https://support.signal.org/hc/en-us/articles/360007320291-Firewall-and-Internet-settings",
+  "rules": [
+    {
+      "action": "allow",
+      "process": "/Applications/Signal.app/Contents/MacOS/Signal",
+      "remote-domains": [
+        "signal.art",
+        "signal.group",
+        "signal.link",
+        "signal.me",
+        "signal.tube"
+      ],
+      "ports": "443",
+      "protocol": "tcp"
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/Signal.app/Contents/MacOS/Signal",
+      "remote-domains": [
+        "signal.art",
+        "signal.group",
+        "signal.link",
+        "signal.me",
+        "signal.tube"
+      ],
+      "ports": "any",
+      "protocol": "udp"
+    }
+  ]
+}
