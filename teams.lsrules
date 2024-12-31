@@ -19,7 +19,7 @@
         "one.one",
         "cloudflare-dns.com"
       ],
-      "ports": "53",
+      "ports": "53, 443",
       "protocol": "udp"
     },
     {
