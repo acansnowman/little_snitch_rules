@@ -10,7 +10,8 @@
         "signal.group",
         "signal.link",
         "signal.me",
-        "signal.tube"
+        "signal.tube",
+        "signal.org"
       ],
       "ports": "443",
       "protocol": "tcp"
@@ -23,10 +24,29 @@
         "signal.group",
         "signal.link",
         "signal.me",
-        "signal.tube"
+        "signal.tube",
+        "signal.org"
       ],
       "ports": "any",
       "protocol": "udp"
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/Signal.app/Contents/MacOS/Signal",
+      "remote-addresses": [
+        "13.248.212.111",
+        "76.223.92.165"
+      ],
+      "ports": "443",
+      "protocol": "tcp"
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/Signal.app/Contents/MacOS/Signal",
+      "remote-domains": [
+        "one.one"
+      ],
+      "ports": "53",
+      "protocol": "udp"
     }
   ]
-}
