@@ -238,6 +238,33 @@
       ],
       "ports": "443, 5222",
       "protocol": "tcp"
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/WhatsApp.localized/WhatsApp.app/Contents/MacOS/WhatsApp",
+      "remote-domains": [
+        "whatsapp.net"
+      ],
+      "ports": "443",
+      "protocol": "tcp"
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/WhatsApp.localized/WhatsApp.app/Contents/MacOS/WhatsApp",
+      "remote-addresses": [
+        "8.8.8.8"
+      ],
+      "ports": "53",
+      "protocol": "udp"
+    },
+    {
+      "action": "allow",
+      "process": "/Applications/WhatsApp.localized/WhatsApp.app/Contents/MacOS/WhatsApp",
+      "remote-domains": [
+        "any"
+      ],
+      "ports": "443",
+      "protocol": "tcp"
     }
   ]
 }
